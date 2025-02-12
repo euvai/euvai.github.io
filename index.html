@@ -1,119 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基础HTML模板</title>
+    <style>
+        /* 基本样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
 <body>
+    <header>
+        <h1>欢迎来到verycd.org</h1>
+    </header>
 
-<h1>verycd</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#services">服务</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
 
-<h1>verycd</h1>
+    <div class="content">
+        <section class="section">
+            <h2>网站介绍</h2>
+            <p>这是一个基础的静态HTML模板，展示了一些基本的页面元素和布局。</p>
+        </section>
 
-<h1>verycd</h1>
+        <section class="section">
+            <h2>特性</h2>
+            <ul>
+                <li>响应式设计</li>
+                <li>简单导航栏</li>
+                <li>内容区域</li>
+                <li>底部信息</li>
+            </ul>
+        </section>
 
-<h1>verycd</h1>
+        <section class="section">
+            <h2>最新新闻</h2>
+            <p>这里可以显示一些网站的最新动态或新闻内容。</p>
+        </section>
+    </div>
 
-<h1>verycd</h1>
-
-<h1>verycd</h1>
-
-<p>
-
-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
-=snR6
-
-
-</p>
-
+    <footer>
+        <p>&copy; 2025 我的网站. All rights reserved.</p>
+    </footer>
 </body>
 </html>
